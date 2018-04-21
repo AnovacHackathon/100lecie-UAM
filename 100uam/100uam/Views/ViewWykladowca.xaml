@@ -1,0 +1,16 @@
+﻿<UserControl x:Class="_100uam.Views.ViewWykladowca"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:_100uam.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="100" d:DesignWidth="100">
+    <Grid>
+        <Button Name="ZatrudnijButton" Content="Zatrudnij" HorizontalAlignment="Left" VerticalAlignment="Top" Width="95" Click="Button_Click"/>
+        <Button Name="ZwolnijButton" Content="Zwolnij" HorizontalAlignment="Left" Margin="0,76,0,0" VerticalAlignment="Top" Width="95" Click="ZwolnijButton_Click"/>
+        <TextBlock HorizontalAlignment="Left" Margin="15,30,0,0" TextWrapping="Wrap" Text="Wykladowca" VerticalAlignment="Top"/>
+        <TextBlock Name ="ilosc" HorizontalAlignment="Left" Margin="26,55,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+
+    </Grid>
+</UserControl>
